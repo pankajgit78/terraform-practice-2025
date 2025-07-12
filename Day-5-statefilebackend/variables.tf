@@ -8,6 +8,11 @@ variable "instance_type" {
       default = "t2.micro"
 }
 
+variable "instance_type_nano" {
+      description = "Instance Type"
+      default = "t2.nano"
+}
+
 variable "subnet_id" {
       description = "subnet id"
       default = "subnet-0c7f9446cc0f161c2"
